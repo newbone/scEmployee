@@ -1,0 +1,27 @@
+{
+  "scEyEmployeeApp": {
+    "department": {
+      "home": {
+        "title": "Departments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Skapa en ny Department",
+        "createOrEditLabel": "Skapa eller ändra en Department",
+        "search": "Sök efter Department",
+        "notFound": "No Departments found"
+      },
+      "created": "En ny Department är skapad med id {{ param }}",
+      "updated": "En Department är uppdaterad med id  {{ param }}",
+      "deleted": "En Department är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Department {{ id }}?"
+      },
+      "detail": {
+        "title": "Department"
+      },
+      "id": "ID",
+      "departmentName": "Department Name",
+      "location": "Location",
+      "employee": "Employee"
+    }
+  }
+}

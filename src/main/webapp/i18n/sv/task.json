@@ -1,0 +1,27 @@
+{
+  "scEyEmployeeApp": {
+    "task": {
+      "home": {
+        "title": "Tasks",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Skapa en ny Task",
+        "createOrEditLabel": "Skapa eller ändra en Task",
+        "search": "Sök efter Task",
+        "notFound": "No Tasks found"
+      },
+      "created": "En ny Task är skapad med id {{ param }}",
+      "updated": "En Task är uppdaterad med id  {{ param }}",
+      "deleted": "En Task är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Task {{ id }}?"
+      },
+      "detail": {
+        "title": "Task"
+      },
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "job": "Job"
+    }
+  }
+}

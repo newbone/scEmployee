@@ -48,6 +48,19 @@ public class CacheConfiguration {
             createCache(cm, com.sccodefactory.employee.domain.User.class.getName());
             createCache(cm, com.sccodefactory.employee.domain.Authority.class.getName());
             createCache(cm, com.sccodefactory.employee.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.sccodefactory.employee.domain.Region.class.getName());
+            createCache(cm, com.sccodefactory.employee.domain.Country.class.getName());
+            createCache(cm, com.sccodefactory.employee.domain.Location.class.getName());
+            createCache(cm, com.sccodefactory.employee.domain.Department.class.getName());
+            createCache(cm, com.sccodefactory.employee.domain.Department.class.getName() + ".employees");
+            createCache(cm, com.sccodefactory.employee.domain.Task.class.getName());
+            createCache(cm, com.sccodefactory.employee.domain.Task.class.getName() + ".jobs");
+            createCache(cm, com.sccodefactory.employee.domain.Employee.class.getName());
+            createCache(cm, com.sccodefactory.employee.domain.Employee.class.getName() + ".jobs");
+            createCache(cm, com.sccodefactory.employee.domain.Job.class.getName());
+            createCache(cm, com.sccodefactory.employee.domain.Job.class.getName() + ".tasks");
+            createCache(cm, com.sccodefactory.employee.domain.JobHistory.class.getName());
+            createCache(cm, com.sccodefactory.employee.domain.Vacation.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

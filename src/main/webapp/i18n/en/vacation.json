@@ -1,0 +1,26 @@
+{
+  "scEyEmployeeApp": {
+    "vacation": {
+      "home": {
+        "title": "Vacations",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Vacation",
+        "createOrEditLabel": "Create or edit a Vacation",
+        "search": "Search for Vacation",
+        "notFound": "No Vacations found"
+      },
+      "created": "A new Vacation is created with identifier {{ param }}",
+      "updated": "A Vacation is updated with identifier {{ param }}",
+      "deleted": "A Vacation is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Vacation {{ id }}?"
+      },
+      "detail": {
+        "title": "Vacation"
+      },
+      "id": "ID",
+      "startDate": "Start Date",
+      "endDate": "End Date"
+    }
+  }
+}
