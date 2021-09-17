@@ -1,0 +1,37 @@
+{
+  "scEyEmployeeApp": {
+    "employee": {
+      "home": {
+        "title": "Employees",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Skapa en ny Employee",
+        "createOrEditLabel": "Skapa eller ändra en Employee",
+        "search": "Sök efter Employee",
+        "notFound": "No Employees found"
+      },
+      "created": "En ny Employee är skapad med id {{ param }}",
+      "updated": "En Employee är uppdaterad med id  {{ param }}",
+      "deleted": "En Employee är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Employee {{ id }}?"
+      },
+      "detail": {
+        "title": "Employee"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "hireDate": "Hire Date",
+      "salary": "Salary",
+      "commissionPct": "Commission Pct",
+      "job": "Job",
+      "manager": "Manager",
+      "department": "Department",
+      "help": {
+        "firstName": "The firstname attribute."
+      }
+    }
+  }
+}

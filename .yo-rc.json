@@ -43,7 +43,9 @@
     "devServerPort": 4200,
     "clientTheme": "none",
     "clientThemeVariant": "",
-    "reactive": false
+    "reactive": false,
+    "entities": ["Region", "Country", "Location", "Department", "Task", "Employee", "Job", "JobHistory", "Vacation"],
+    "lastLiquibaseTimestamp": 1631701130000
   },
   "git-provider": "GitHub",
   "git-company": "newbone",
